@@ -77,7 +77,7 @@ const food_items = [
     image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400&h=300&fit=crop",
     price: "NPR 99",
     description: "Refreshing fruit smoothie with yogurt.",
-    category: "Beverages"
+    category: "Drink"
   },
   {
     id: 11,
@@ -117,7 +117,7 @@ const food_items = [
     image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop",
     price: "NPR 90",
     description: "Freshly brewed coffee with a hint of vanilla.",
-    category: "Beverages"
+    category: "Drink"
   },
   {
     id: 16,
@@ -213,7 +213,7 @@ const food_items = [
     image: "https://i.pinimg.com/736x/e6/40/47/e64047ec9918e40bce7cf2e1cfebd72f.jpg",
     price: "NPR 59",
     description: "Refreshing yogurt-based drink, sweet or salty.",
-    category: "Beverages"
+    category: "Drink"
   },
   {
     id: 28,
@@ -221,7 +221,7 @@ const food_items = [
     image: "https://i.pinimg.com/736x/1e/54/af/1e54afeaa85c39ac3464a613b911e61e.jpg",
     price: "NPR 49",
     description: "Hot Nepali milk tea with spices.",
-    category: "Beverages"
+    category: "Drink"
   },
   {
     id: 29,
@@ -245,7 +245,7 @@ const food_items = [
     image: "https://i.pinimg.com/736x/2b/d1/b9/2bd1b99ae997b97d8578baa00be69a5d.jpg",
     price: "NPR 99",
     description: "Chilled orange flavored soft drink.",
-    category: "Beverages"
+    category: "Drink"
   },
   {
     id: 32,
