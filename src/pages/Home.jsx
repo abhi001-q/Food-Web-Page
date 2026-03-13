@@ -31,7 +31,7 @@ function Home() {
   );
 
   const deliveryFee = Math.floor(5);
-  const taxes = Math.floor(subtotal * 0.05); // 5% tax
+  const taxes = Math.floor(subtotal * 0.13); // 5% tax
   const total = Math.floor(subtotal + deliveryFee + taxes);
 
   return (
@@ -140,16 +140,18 @@ function Home() {
                 Total
               </span>
               <span className="text-green-400 font-semibold text-lg">
-                ₹{total.toFixed()}
+                NPR {total.toFixed()}
               </span>
             </div>
 
-            <button className="w-[80%] p-3 rounded-lg bg-green-500 text-white font-semibold hover:bg-green-600 transition-colors flex justify-center items-center">
-              <span
-                className="font-semibold text-lg"
-                onClick={() => {
+            <button className="w-[80%] p-3 rounded-lg bg-green-500 text-white font-semibold hover:bg-green-600 transition-colors flex justify-center items-center"
+            onClick={() => {
                   toast.success("Order placed successfully!");
                 }}
+            >
+              <span
+                className="font-semibold text-lg"
+                
               >
                 Place Order
               </span>
